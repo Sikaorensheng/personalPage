@@ -1,0 +1,25 @@
+body{
+    /*background-color: #efff51;*/
+    /*一言不合直接平铺*/
+    background-image: url('../img/classom.jpg');
+    background-position: top;
+    background-size: cover;
+}
+.poem{
+    font-size: 20px;
+    color: black;
+}
+#cyka{
+    /*color: aliceblue;*/
+    list-style: none;
+    font-style: initial;
+    font-size: 15px;
+    margin: 345px 0px 0px 500px;
+}
+#bottom{
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
