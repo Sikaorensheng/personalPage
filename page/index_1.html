@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>少年听雨歌楼上</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <!--引入vue-->
+    <script src="../lib/vue.js"></script>
+    <!--import Vue before Element -->
+    <!--<script src="https://unpkg.com/vue/dist/vue.js"></script>-->
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <!--添加看板娘-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <!--css样式引入-->
+    <link rel="stylesheet" href="../style/style1.css"/>
+</head>
+<body>
+<div id="cyka">
+    <li>
+        <p class="poem">虞美人·听雨</p>
+        <p>少年听雨歌楼上，红烛昏罗帐。壮年听雨客舟中，江阔云低，断雁叫西风。</p>
+        <p>而今听雨僧庐下，鬓已星星也。悲欢离合总无情，一任阶前点滴到天明。</p>
+        <p></p>
+    </li>
+</div>
+<div id="bottom">
+    <el-link href="https://github.com/Sikaorensheng" target="_blank">@Github</el-link>
+    <el-link disabled>@2020bfulht</el-link>
+    <el-link disabled>京ICP备20031295号</el-link>
+    <el-link href="http://www.beian.miit.gov.cn/" target="_blank">查询链接</el-link>
+</div>
+<script>
+    //这个地方具体是干啥的我也不是很明白hh
+    new Vue({
+        el: '#bottom',
+        data: function() {
+            return { visible: false }
+        }
+    })
+</script>
+</body>
+</html>
